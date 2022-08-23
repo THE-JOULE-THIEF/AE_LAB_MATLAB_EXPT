@@ -20,7 +20,7 @@ den = [1 1 1 0];
 t = 0:0.1:7;
 c = step(num,den,t);
 plot(t,c,'o',t,t,'-')
-title('Ramp response')
+title('Ramp Response')
 
 %% State space
 A = [0 1;-1 -1];
